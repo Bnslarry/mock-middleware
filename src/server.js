@@ -35,4 +35,4 @@ let getOfficialUnionID = async ctx => {
 
 server.use(route.get('/mock/cgi-bin/user/info', getOfficialUnionID));
 
-server.listen(3000);
+server.listen(7310);
